@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gallery {
+    min-height: 100vh;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    transform: rotate(-90deg);
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    bottom: 10%;
+    right: 30%;
+    align-content: space-around;
+
+
+
+
+
+}
+
+
+
+.gallery a {
+
+    flex-basis: calc(50% - 40px);
+    margin: 0px 20px;
+    overflow: hidden;
+    position: relative;
+    height: 20%;
+    box-shadow: 0 0 2px 3px black;
+
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
